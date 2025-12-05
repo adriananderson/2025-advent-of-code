@@ -1,7 +1,6 @@
 package day01
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 
@@ -45,7 +44,7 @@ func Part2() int {
 				}
 			}
 			position = nextPosition
-			fmt.Printf("Line %s: position %d, zero %d\n", fileContent[lineIdx], position, pointsToZero)
+			//fmt.Printf("Line %s: position %d, zero %d\n", fileContent[lineIdx], position, pointsToZero)
 			zeroCounts += pointsToZero
 		}
 	}

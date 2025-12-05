@@ -50,12 +50,9 @@ func RemoveElementAt[T any](index int, report []T) []T {
 		return []T{}
 	}
 
-	temp := make([]T, 0)
-	for idx, value := range report {
-		if idx != index {
-			temp = append(temp, value)
-		}
-	}
+	result := make([]T, 0, len(report)-1)
+	result = append(result, report[:index]...)
+	result = append(result, report[index+1:]...)
 
-	return temp
+	return result
 }
