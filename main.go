@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/adriananderson/2025-advent-of-code/day08"
+	"github.com/adriananderson/2025-advent-of-code/day09"
 )
 
 func main() {
@@ -32,9 +32,11 @@ func main() {
 	//fmt.Printf("Final result Day 07 part 1: %d\n", day07.Part1())
 	//fmt.Printf("Final result Day 07 part 2: %d\n", day07.Part2())
 	// Day 08
-	//day08.Test()
 	//fmt.Printf("Final result Day 08 part 1: %d\n", day08.Part1())
-	fmt.Printf("Final result Day 08 part 2: %d\n", day08.Part2())
+	//fmt.Printf("Final result Day 08 part 2: %d\n", day08.Part2())
+	// Day 09
+	fmt.Printf("Final result Day 9 part 1: %d\n", day09.Part1())
+	fmt.Printf("Final result Day 09 part 2: %d\n", day09.Part2())
 
 	fmt.Printf("... took %v\n", time.Since(start))
 }
